@@ -1,5 +1,7 @@
+const chai = require('chai');
+const expect = chai.expect;
 const add = require('../app');
-const { expect } = require('chai');
+
 
 describe('Add function', () => {
     it('should return 5 when adding 2 and 3', () => {
